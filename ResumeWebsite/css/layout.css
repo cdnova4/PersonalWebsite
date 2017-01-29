@@ -188,7 +188,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #f865fd; }
-F06000
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -887,8 +887,8 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #2f30e0;
+	color: #000;
+	background-color: #fff;
 }
 #contact button.submit {
 	text-transform: uppercase;

@@ -114,18 +114,19 @@ header .scrolldown a {
 
    color: #fff;
    display: block;
-   height: 42px;
-   width: 42px;
+   height: 60px;
+   width: 60px;
    font-size: 42px;
-   line-height: 42px;
+   line-height: 60px;
       border-radius: 100%;
 
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
+   -webkit-transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   -o-transition: all .2s ease-in-out;
+   transition: all .2s ease-in-out;
 }
-header .scrolldown a:hover { color: #f865f9; }
+header .scrolldown a:hover { background-color: #fff; color: #f865f9; }
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -148,7 +149,7 @@ header .scrolldown a:hover { color: #f865f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #000; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -188,7 +189,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #f865fd; }
-ul#nav li a:hover {background-color: #fff; color:#f865fd; }
+ul#nav li a:hover {background-color: #fff; color:#f865fd; border-radius: 15px; }
 
 
 /* ------------------------------------------------------------------ */
@@ -241,6 +242,7 @@ img.profile-pic{
 #about .download .button:hover {
    background: #fff;
    color: ##f865f9;
+   border-radius: 15px;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -829,7 +831,7 @@ call-to-action .button {
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #fff; }
-#contact a:hover, #contact a:focus { color: #f865f9; background-color: #fff;}
+#contact a:hover, #contact a:focus { color: #f865f9; background-color: #fff; border-radius: 15px;}
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -906,6 +908,7 @@ call-to-action .button {
 #contact button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
+  border-radius: 15px;
 }
 #contact span.required {
 	color: #;
@@ -960,7 +963,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #000;
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -1035,8 +1038,12 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover {color: #f865f9; background-color: #fff;}
+#go-top a:hover {color: #
+  ; background-color: #fff;
+color: #f865f9;}
 #contact button {
   color:#fff;
+
+
 
 }

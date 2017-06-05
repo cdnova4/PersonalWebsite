@@ -47,7 +47,7 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
-.sexy_line{ 
+.sexy_line{
     display:block;
     border:none;
     color:white;
@@ -103,7 +103,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #2f30e0; }
+header .social li a:hover { color: #f865f9 ; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -125,7 +125,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #2f30e0; }
+header .scrolldown a:hover { color: #f865f9; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -188,6 +188,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #f865fd; }
+ul#nav li a:hover {background-color: #fff; color:#f865fd; }
 
 
 /* ------------------------------------------------------------------ */
@@ -239,7 +240,7 @@ img.profile-pic{
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: ##f865f9;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -268,7 +269,7 @@ img.profile-pic{
 }
 #resume h1 span {
    border-bottom: 3px solid #F865F9;
-   
+
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -344,17 +345,17 @@ img.profile-pic{
 div.transbox {
   margin-top: 50px;
   margin: 30px;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: #fff;
-  
+
   border: 1px solid black;
   background: rgb(68, 68, 68); /* Fallback for older browsers without RGBA-sabport */
     background: rgba(0, 0, 0, .6);
   /*opacity: 0.6;*/
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  width: 500px;
+  filter: alpha(opacity=00); /* For IE8 and earlier */
+  width: 350px;
   float: center;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .html {
@@ -363,17 +364,17 @@ div.transbox {
   	-webkit-animation: html 2s ease;
 }
 .css {
-  	width: 80%;
+  	width: 85%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .python {
-  	width: 75%;
+  	width: 45%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 .java {
-  	width: 82%;
+  	width: 80%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -383,7 +384,7 @@ div.transbox {
   	-webkit-animation: SQL 2s ease;
 }
 .javascript {
-  	width: 65%;
+  	width: 75%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
@@ -662,7 +663,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -686,7 +687,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -827,8 +828,8 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #f865f9; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #fff; }
+#contact a:hover, #contact a:focus { color: #f865f9; background-color: #fff;}
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -907,7 +908,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #f865f9;
+	color: #;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -966,7 +967,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #f865f9; }
 
 /* copyright */
 footer .copyright {
@@ -1034,5 +1035,8 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #2f30e0; }
+#go-top a:hover {color: #f865f9; background-color: #fff;}
+#contact button {
+  color:#fff;
 
+}

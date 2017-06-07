@@ -47,6 +47,9 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+
+
+
 .sexy_line{
     display:block;
     border:none;
@@ -149,7 +152,11 @@ header .scrolldown a:hover { background-color: #fff; color: #f865f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #000; }
+
+
+.opaque { background-color: #000;
+
+ }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -351,8 +358,8 @@ div.transbox {
   background-color: #fff;
 
   border: 1px solid black;
-  background: rgb(68, 68, 68); /* Fallback for older browsers without RGBA-sabport */
-    background: rgba(0, 0, 0, .6);
+  background: rgb(34, 34, 34); /* Fallback for older browsers without RGBA-sabport */
+    background: rgba(0, 0, 0, .75);
   /*opacity: 0.6;*/
   filter: alpha(opacity=00); /* For IE8 and earlier */
   width: 350px;
